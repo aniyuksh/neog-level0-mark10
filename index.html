@@ -11,16 +11,29 @@
   <div class="container">
     <h1 class="heading">Cash Register</h1>
     <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
-    <label for="bill-amt">Bill Amount : </label>
+
+
+    <label for="bill-amt" id="bill">Bill Amount : </label>
     <input type="text" id="bill-amt"/>
+
+    
+
     <label for="amount">Cash Given : </label>
     <input type="text" id="amount" />
-    <button class="check">Check</button>
+
+    <button id="check">Check</button>
+    <p id="error-message"></p>
     <table class="change-table">
       <caption>Return Change</caption>
       <tr>
         <th>No. of notes</th>
-        <td></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
       </tr>
       <tr>
         <th>Note</th>
@@ -35,6 +48,6 @@
     </table>
   </div>
 
-  <script src="index.js"></script>
+  <script src="./index.js"></script>
 </body>
 </html>

@@ -1,10 +1,45 @@
-.{
 
-
-}
 
 .container{
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 30vw;
+  margin: auto;
+  padding-top: 5rem;
+  background-color: aliceblue;
+  
 }
+
+h1{
+  text-align: center;
+  
+}
+
+label{
+  padding: 10px 0px;
+}
+
+button{
+  margin: 1rem 0px;
+  max-width: 150px;
+  align-self: center;
+}
+
+.change-table{
+  margin: 1rem;
+    border-collapse: collapse;
+}
+
+
+.change-table caption{
+  margin-bottom: 1rem;
+}
+
+.change-table, th ,td{
+  border: 1px black solid;
+  padding: 0.3rem 0.4rem;
+}
+
+
+
+
